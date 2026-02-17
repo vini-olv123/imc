@@ -1,4 +1,7 @@
 {%extends 'base.html'%}
+{% block titulo %}
+    Calculadora
+{% endblock %}
 {% block link %}
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,4 +19,4 @@
 <input type="submit" value="Enviar" id="enviar">
 <p>IMC: {{imc}}</p>
 </form>
-{% endblock %}}
+{% endblock %}
