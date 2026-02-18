@@ -94,10 +94,17 @@ h1 {
     color: rgb(244, 250, 255);
     font-family: poppins;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 40px;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 30px;
 }
+
 p {
-  color: white;
+  color: whitesmoke;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #334155a3;
+  border-radius: 15px;
 }

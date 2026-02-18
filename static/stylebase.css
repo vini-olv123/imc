@@ -1,8 +1,25 @@
 header {
     text-align: center;
     top: 10%;
+    background-color: rgba(95, 95, 95, 0.205);
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 110px;
+    margin: 60px auto 0 auto;
+
 }
+
 header a{
+    font-family: poppins;
     text-decoration: none;
-    color: white;
+    color: rgb(181, 181, 181);
+    font-weight: 700;
+    list-style: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+header a:hover {
+    transform: translateY(-5px) scale(1.1);
+    color: rgb(0, 255, 255);
 }
